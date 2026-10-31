@@ -1,4 +1,4 @@
-# Cybersecurity-lab-setup-networkwalks-week1
+# Networkwalks-RobinVuru-B084-WK1-PM1-Cybersecurity-Lab-Setup
 Project Overview & Details
 
 Author: Robin Vuru.
