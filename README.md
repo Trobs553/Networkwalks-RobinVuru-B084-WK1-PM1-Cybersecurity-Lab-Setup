@@ -1,5 +1,5 @@
 # Cybersecurity-lab-setup-networkwalks-week1
-Project Overview & Author Details
+Project Overview & Details
 
 Author: Robin Vuru.
 
