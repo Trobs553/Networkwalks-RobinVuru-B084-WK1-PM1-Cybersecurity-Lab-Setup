@@ -62,8 +62,6 @@ Downloaded and verified essential installation files for extraction, virtualizat
 
 1. **NAT Network Setup:** Built a custom NAT Network (`NatNetwork`) under `10.0.0.0/24` with local DHCP enabled to isolate traffic while providing outbound internet connectivity.
 
-> *Figure 1.4:  Configuration Interface*
-
 <p align="center">
   <img src="Fig1.4.png" alt="NAT Network Configuration Interface" width="600" />
   <br>
