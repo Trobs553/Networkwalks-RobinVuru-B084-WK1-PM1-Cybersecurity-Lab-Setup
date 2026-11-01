@@ -68,7 +68,7 @@ Downloaded and verified essential installation files for extraction, virtualizat
   <br>
   <em>Figure 1.4: Configuration Interface</em>
 </p>
-3. **VM Import:** Imported the extracted Kali Linux image into VirtualBox and tuned base memory/processor parameters for optimal host balance.
+3. **VM IMPORT:** Imported the extracted Kali Linux image into VirtualBox and tuned base memory/processor parameters for optimal host balance.
 
 
 Base Memory:2048MB
