@@ -19,6 +19,7 @@ Software Acquisition: Downloaded and installed 7-Zip, Oracle VirtualBox, and Kal
 Download 
 1. 7zip- https://7-zip.org/download.html
 <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/405fd6a6-2f2b-43f9-8d91-3a20feb1c056" />
+
 3. VirtualBox- https://virtualbox.org/wiki/Downloads
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/3c46a27c-fb1b-4966-9c08-cc2b4707294b" />
 
