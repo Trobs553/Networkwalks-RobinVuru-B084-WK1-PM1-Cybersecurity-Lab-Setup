@@ -23,8 +23,8 @@ Download
 3. VirtualBox- https://virtualbox.org/wiki/Downloads
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/3c46a27c-fb1b-4966-9c08-cc2b4707294b" />
 
-5. Kali Linux- https://kali.org/get-kali
-   Note: Extract 
+4. Kali Linux- https://kali.org/get-kali
+   Note: Extract the Kali 
 <img width="772" height="452" alt="image" src="https://github.com/user-attachments/assets/2d5cddb1-29ef-4418-97e8-4dfae640e2c1" />
 
 VM & Network Setup: Imported Kali Linux into VirtualBox and configured the dedicated NatNetwork parameters.
