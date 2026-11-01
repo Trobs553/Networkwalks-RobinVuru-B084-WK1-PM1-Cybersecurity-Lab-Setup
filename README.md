@@ -25,7 +25,7 @@ Download
 
 4. Kali Linux- https://kali.org/get-kali
    Note: Extract the Kali 
-<img width="772" height="452" alt="image" src="https://github.com/user-attachments/assets/2d5cddb1-29ef-4418-97e8-4dfae640e2c1" />
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/2d5cddb1-29ef-4418-97e8-4dfae640e2c1" />
 
 VM & Network Setup: Imported Kali Linux into VirtualBox and configured the dedicated NatNetwork parameters.
 
