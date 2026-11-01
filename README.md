@@ -69,6 +69,8 @@ Downloaded and verified essential installation files for extraction, virtualizat
   <em>Figure 1.4: Configuration Interface</em>
 </p>
 3.  **VM Import:** Imported the extracted Kali Linux image into VirtualBox and tuned base memory/processor parameters for optimal host balance.
+Base Memory:2048MB
+Processor: 2
 
 > *Figure 1.5: Imported Interface*
 4. **Guest Interface Tuning:** Verified `Wired connection 1` settings within Kali Linux to dynamically request an IP via DHCP and set DNS targeting `8.8.8.8`.
