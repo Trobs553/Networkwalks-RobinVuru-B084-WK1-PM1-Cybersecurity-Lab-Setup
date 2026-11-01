@@ -65,7 +65,7 @@ Downloaded and verified essential installation files for extraction, virtualizat
 > *Figure 1.4:  Configuration Interface*
 
 <p align="center">
-  <img src="path/to/fig 1.4.png" alt="NAT Network Configuration Interface" width="600" />
+  <img src="Fig1.4.png" alt="NAT Network Configuration Interface" width="600" />
   <br>
   <em>Figure 1.4: Configuration Interface</em>
 </p>
