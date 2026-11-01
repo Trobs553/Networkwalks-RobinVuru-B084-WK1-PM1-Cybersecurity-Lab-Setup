@@ -15,19 +15,19 @@ IP Address Configuration: Network prefix set to 10.0.0.0/24 with DHCP enabled an
 
 Implementation Steps
 
-Software Acquisition: Downloaded and installed 7-Zip, Oracle VirtualBox, and Kali Linux.
+1. Software Acquisition: Downloaded and installed 7-Zip, Oracle VirtualBox, and Kali Linux.
 Download 
-1. 7zip- https://7-zip.org/download.html
+A. 7zip- https://7-zip.org/download.html
 <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/405fd6a6-2f2b-43f9-8d91-3a20feb1c056" />
 
-3. VirtualBox- https://virtualbox.org/wiki/Downloads
+B. VirtualBox- https://virtualbox.org/wiki/Downloads
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/3c46a27c-fb1b-4966-9c08-cc2b4707294b" />
 
-4. Kali Linux- https://kali.org/get-kali
+C. Kali Linux- https://kali.org/get-kali
    Note: Extract the Kali 
 <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/2d5cddb1-29ef-4418-97e8-4dfae640e2c1" />
 
-VM & Network Setup: Imported Kali Linux into VirtualBox and configured the dedicated NatNetwork parameters.
+2. VM & Network Setup: Imported Kali Linux into VirtualBox and configured the dedicated NatNetwork parameters.
 
 Network Configuration: Verified automatic DHCP settings and primary adapter settings within Kali Linux.
 
