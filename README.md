@@ -63,6 +63,12 @@ Downloaded and verified essential installation files for extraction, virtualizat
 1. **NAT Network Setup:** Built a custom NAT Network (`NatNetwork`) under `10.0.0.0/24` with local DHCP enabled to isolate traffic while providing outbound internet connectivity.
 
 > *Figure 1.4:  Configuration Interface*
+
+<p align="center">
+  <img src="path/to/fig 1.4.png" alt="NAT Network Configuration Interface" width="600" />
+  <br>
+  <em>Figure 1.4: Configuration Interface</em>
+</p>
 3.  **VM Import:** Imported the extracted Kali Linux image into VirtualBox and tuned base memory/processor parameters for optimal host balance.
 
 > *Figure 1.5: Imported Interface*
