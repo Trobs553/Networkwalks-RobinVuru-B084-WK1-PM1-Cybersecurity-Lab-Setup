@@ -15,7 +15,7 @@
 | --- | --- |
 | **Host System** | Windows 11 Laptop (Intel Core i7, 8 GB RAM) |
 | **Hypervisor** | Oracle VirtualBox 7.2.22|
-| **Guest OS** | Kali Linux |
+| **Guest OS** | Kali Linux 2026.3 |
 | **Virtual Network Name** | `NatNetwork` |
 | **IP Prefix** | `10.0.0.0/24` |
 | **DHCP / IPv6** | DHCP: **Enabled** | IPv6: **Disabled** |
