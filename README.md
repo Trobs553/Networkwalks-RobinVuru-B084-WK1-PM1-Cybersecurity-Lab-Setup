@@ -68,6 +68,8 @@ Downloaded and verified essential installation files for extraction, virtualizat
 > *Figure 1.5: Imported Interface*
 4. **Guest Interface Tuning:** Verified `Wired connection 1` settings within Kali Linux to dynamically request an IP via DHCP and set DNS targeting `8.8.8.8`.
 
+> *Figure 1.6: Configuration Interface*
+
 ```text
                Personal Laptop (Windows 11)
                      Intel Core i7 | 8 GB RAM
