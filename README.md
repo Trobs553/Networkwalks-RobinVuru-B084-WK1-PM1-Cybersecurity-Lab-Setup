@@ -81,7 +81,11 @@ Processor: 2
 </p>
 3. **Guest Interface Tuning:** Verified `Wired connection 1` settings within Kali Linux to dynamically request an IP via DHCP and set DNS targeting `8.8.8.8`.
 
-> *Figure 1.6: Configuration Interface*
+<p align="center">
+  <img src="Fig1.6.PNG" alt="NAT Network Configuration Interface" width="600" />
+  <br>
+  <em>Figure 1.6: Configuration Interface</em>
+</p>
 
 ```text
                Personal Laptop (Windows 11)
