@@ -18,8 +18,10 @@ Implementation Steps
 Software Acquisition: Downloaded and installed 7-Zip, Oracle VirtualBox, and Kali Linux.
 Download 
 1. 7zip- https://7-zip.org/download.html
-2. VirtualBox- https://virtualbox.org/wiki/Downloads
-3. Kali Linux- https://kali.org/get-kali
+   <img width="623" height="387" alt="image" src="https://github.com/user-attachments/assets/88840beb-29d1-41a5-b386-3725adac4bfa" />
+
+3. VirtualBox- https://virtualbox.org/wiki/Downloads
+4. Kali Linux- https://kali.org/get-kali
 
 VM & Network Setup: Imported Kali Linux into VirtualBox and configured the dedicated NatNetwork parameters.
 
