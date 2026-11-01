@@ -1,48 +1,145 @@
-# Networkwalks-RobinVuru-B084-WK1-PM1-Cybersecurity-Lab-Setup
-Project Overview & Details
+Here is a polished, professional Markdown document template tailored for GitHub, Notion, or report submissions. It includes dynamic layout structures, clear image placeholders with formatted sub-labels, and expressive visual markers (stickers/emojis).
 
-Author: Robin Vuru.
+---
 
-Objective: Set up a virtualized cybersecurity laboratory on a Windows 11 host using Oracle VirtualBox and Kali Linux for ethical hacking, networking, and security testing.
+# 🔐 Networkwalks-RobinVuru-B084-WK1-PM1-Cybersecurity-Lab-Setup
 
-System Specifications & Network Architecture
+## 📌 1. Project Overview & Details
 
-Host System: Windows 11 personal laptop powered by an Intel Core i7 processor with 8 GB RAM.
+* **Author:** Robin Vuru
+* **Batch/ID:** B084 (WK1-PM1)
+* **Objective:** Establish a fully functional, virtualized cybersecurity lab environment on a Windows 11 host using Oracle VirtualBox and Kali Linux to perform ethical hacking, network analysis, and authorized security assessments.
 
-Virtual Environment: Oracle VirtualBox running Kali Linux on a custom NAT Network named NatNetwork.
+---
 
-IP Address Configuration: Network prefix set to 10.0.0.0/24 with DHCP enabled and IPv6 disabled. Kali Linux is set to automatically acquire its IP (Wired connection 1) with DNS specified as 8.8.8.8.
+## 💻 2. System Specifications & Network Architecture
 
-Implementation Steps
+| Component | Configuration Details |
+| --- | --- |
+| **Host System** | Windows 11 Laptop (Intel Core i7, 8 GB RAM) |
+| **Hypervisor** | Oracle VirtualBox |
+| **Guest OS** | Kali Linux |
+| **Virtual Network Name** | `NatNetwork` |
+| **IP Prefix** | `10.0.0.0/24` |
+| **DHCP / IPv6** | DHCP: **Enabled** | IPv6: **Disabled** |
+| **Primary Adapter Configuration** | `Wired connection 1` (Automatic DHCP) |
+| **DNS Server** | `8.8.8.8` (Google Public DNS) |
 
-Software Acquisition: Downloaded and installed 7-Zip, Oracle VirtualBox, and Kali Linux.
-Download 
-A.7zip- https://7-zip.org/download.html
-<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/405fd6a6-2f2b-43f9-8d91-3a20feb1c056" />
+---
 
-B.VirtualBox- https://virtualbox.org/wiki/Downloads
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/3c46a27c-fb1b-4966-9c08-cc2b4707294b" />
+## ⚙️ 3. Step-by-Step Implementation Procedure
 
-C.Kali Linux- https://kali.org/get-kali
-Note: Extract the Kali 
-<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/2d5cddb1-29ef-4418-97e8-4dfae640e2c1" />
+### 🛠️ Step 1: Software Acquisition & Tooling
 
-VM & Network Setup: Imported Kali Linux into VirtualBox and configured the dedicated NatNetwork parameters.
+Downloaded and verified essential installation files for extraction, virtualization, and security testing.
 
-Network Configuration: Verified automatic DHCP settings and primary adapter settings within Kali Linux.
+#### **A. 7-Zip**
 
-Connectivity Verification: Executed standard Linux CLI diagnostics (ip -br addr, ip route, cat /etc/resolv.conf, ping, getent hosts, and nmap --version) to verify local IP configuration, default gateway reachability, public Internet connectivity, and DNS resolution.
+* **Resource:** [7-Zip Official Downloads](https://7-zip.org/download.html)
+* **Purpose:** Archival tool used to extract compressed Kali Linux images.
 
-Snapshot Baseline: Created a clean baseline recovery snapshot named Fresh Kali Linux_Robin Vuru- Task 1 Baseline to allow quick restoration prior to running future lab tests.
+> *Figure 1.1: 7-Zip Official Download Interface*
 
-Troubleshooting & Key Lessons
+---
 
-Detailed diagnostic workflows for resolving common virtual lab issues, such as lost internet connectivity, unexpected DHCP IP assignments, and CPU virtualization (VT-x) settings in BIOS/UEFI.
+#### **B. Oracle VirtualBox**
 
-Practical insights gained in NAT networking, DHCP/DNS mechanics, command-line network diagnostics, and environment backup strategies.
+* **Resource:** [VirtualBox Official Downloads](https://virtualbox.org/wiki/Downloads)
+* **Purpose:** Type-2 Hypervisor managing virtual machines and private networks.
 
-Ethical Compliance & Future Roadmap
+> *Figure 1.2: Oracle VirtualBox Platform Packages Download Page*
 
-Ethics: Strictly restricted to authorized local testing, owner-permitted target systems, and isolated VM configurations.
+---
 
-Next Steps: Integrate intentionally vulnerable target VMs (e.g., Metasploitable), establish static IP planning, practice Nmap scanning, analyze traffic via Wireshark, and perform web application security testin
+#### **C. Kali Linux**
+
+* **Resource:** [Kali Linux Official Downloads](https://kali.org/get-kali)
+* **Purpose:** Penetration testing Linux distribution equipped with security tools.
+* ⚠️ **Note:** *Extract the downloaded Kali archive using 7-Zip prior to importing into VirtualBox.*
+
+> *Figure 1.3: Kali Linux Pre-built Virtual Machine Selection*
+
+---
+
+### 🌐 Step 2: Virtual Machine & Network Configuration
+
+1. **VM Import:** Imported the extracted Kali Linux image into VirtualBox and tuned base memory/processor parameters for optimal host balance.
+2. **NAT Network Setup:** Built a custom NAT Network (`NatNetwork`) under `10.0.0.0/24` with local DHCP enabled to isolate traffic while providing outbound internet connectivity.
+3. **Guest Interface Tuning:** Verified `Wired connection 1` settings within Kali Linux to dynamically request an IP via DHCP and set DNS targeting `8.8.8.8`.
+
+```text
+               Personal Laptop (Windows 11)
+                     Intel Core i7 | 8 GB RAM
+                                |
+                                v
+                       Oracle VirtualBox
+                                |
+                                v
+               +----------------------------------+
+               |      NatNetwork (10.0.0.0/24)    |
+               |         DHCP Server Enabled      |
+               +----------------------------------+
+                                |
+             +------------------+------------------+
+             |                                     |
+             v                                     v
+     Kali Linux (VM)                       [Future Target VM]
+  IP: Dynamic (DHCP)                      Metasploitable / DVWA
+    DNS: 8.8.8.8
+
+```
+
+---
+
+### 🔍 Step 3: Connectivity Verification Diagnostics
+
+Ran core Linux CLI tools inside the Kali terminal to validate full stack connectivity:
+
+* **Interface IP Check:** `ip -br addr` *(Confirmed assigned dynamic IPv4 address)*
+* **Default Routing:** `ip route` *(Verified path to default gateway)*
+* **DNS Resolution Config:** `cat /etc/resolv.conf` *(Confirmed active DNS point to `8.8.8.8`)*
+* **Gateway Reachability:** `ping -c 4 <gateway-ip>`
+* **Internet Reachability:** `ping -c 4 8.8.8.8`
+* **Domain Name Resolution:** `getent hosts kali.org`
+* **Tool Availability:** `nmap --version`
+
+---
+
+### 📸 Step 4: Baseline Recovery Snapshot
+
+Created a clean recovery snapshot prior to initiating active security assessments to ensure quick system rollback.
+
+* **Snapshot Name:** `Fresh Kali Linux_Robin Vuru- Task 1 Baseline`
+* **Status:** Clean state saved and baseline verified.
+
+---
+
+## 🐞 4. Troubleshooting & Key Learnings
+
+### 🔧 Troubleshooting Protocols
+
+* **Connectivity Drops:** Verified adapter alignment to `NatNetwork` in VM settings and recycled NetworkManager services via CLI.
+* **IP Collisions / Unexpected DHCP Leasing:** Cleaned stale DHCP leases and validated the scope range within VirtualBox Network Manager.
+* **Hardware Virtualization Blockers:** Enabled Intel Virtualization Technology (**VT-x**) within system BIOS/UEFI settings to address hypervisor kernel module errors.
+
+### 💡 Key Takeaways
+
+1. **NAT Networking Isolation:** Understanding how shared virtual networks handle inter-VM communication alongside host outbound network translation.
+2. **Network Diagnostics:** Proficiency with command-line tools (`ip`, `ping`, `getent`, `cat`) to verify network layers systematically.
+3. **Snapshot Management:** Recognizing snapshots as critical safety mechanisms before conducting disruptive security tests.
+
+---
+
+## ⚖️ 5. Ethical Compliance & Future Roadmap
+
+### 🛡️ Ethical Usage Notice
+
+> All operational activities documented within this laboratory setup are strictly restricted to isolated, self-contained environments and owner-authorized target platforms. Unauthorized scanning or exploit delivery against external systems is strictly prohibited.
+
+### 🚀 Future Roadmap & Next Steps
+
+* 🎯 **Target Integration:** Deploy intentionally vulnerable endpoints (e.g., Metasploitable, OWASP Juice Shop).
+* 📑 **Static IP Schema:** Configure persistent static addressing for multi-node lab exercises.
+* 🔎 **Reconnaissance Practice:** Conduct host discovery, port scanning, and service enumeration using **Nmap**.
+* 📊 **Traffic Analysis:** Capture and inspect raw packets using **Wireshark**.
+* 🌐 **Web Security:** Perform authorized vulnerability scanning against local web applications.
