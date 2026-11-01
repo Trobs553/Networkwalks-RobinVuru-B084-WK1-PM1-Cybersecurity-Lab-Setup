@@ -61,8 +61,10 @@ Downloaded and verified essential installation files for extraction, virtualizat
 ### 🌐 Step 2: Virtual Machine & Network Configuration
 
 1. **NAT Network Setup:** Built a custom NAT Network (`NatNetwork`) under `10.0.0.0/24` with local DHCP enabled to isolate traffic while providing outbound internet connectivity.
-2.  **VM Import:** Imported the extracted Kali Linux image into VirtualBox and tuned base memory/processor parameters for optimal host balance.
-3. **Guest Interface Tuning:** Verified `Wired connection 1` settings within Kali Linux to dynamically request an IP via DHCP and set DNS targeting `8.8.8.8`.
+
+> *Figure 1.4:  Configuration Interface*
+3.  **VM Import:** Imported the extracted Kali Linux image into VirtualBox and tuned base memory/processor parameters for optimal host balance.
+4. **Guest Interface Tuning:** Verified `Wired connection 1` settings within Kali Linux to dynamically request an IP via DHCP and set DNS targeting `8.8.8.8`.
 
 ```text
                Personal Laptop (Windows 11)
