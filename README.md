@@ -14,7 +14,7 @@
 | Component | Configuration Details |
 | --- | --- |
 | **Host System** | Windows 11 Laptop (Intel Core i7, 8 GB RAM) |
-| **Hypervisor** | Oracle VirtualBox |
+| **Hypervisor** | Oracle VirtualBox 7.2.22|
 | **Guest OS** | Kali Linux |
 | **Virtual Network Name** | `NatNetwork` |
 | **IP Prefix** | `10.0.0.0/24` |
