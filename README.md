@@ -75,7 +75,7 @@ Base Memory:2048MB
 Processor: 2
 
 <p align="center">
-  <img src="Fig1.5.png" alt="NAT Network Configuration Interface" width="600" />
+  <img src="Fig1.5.PNG" alt="NAT Network Configuration Interface" width="600" />
   <br>
   <em>Figure 1.5: Configuration Interface</em>
 </p>
