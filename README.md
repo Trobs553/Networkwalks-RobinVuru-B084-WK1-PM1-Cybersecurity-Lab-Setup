@@ -33,7 +33,7 @@ Downloaded and verified essential installation files for extraction, virtualizat
 #### **A. 7-Zip**
 
 * **Resource:** [7-Zip Official Downloads](https://7-zip.org/download.html)
-* **Purpose:** Archival tool used to extract compressed Kali Linux images.
+* **Purpose:** Archival tool installed initially to extract Kali Linux 2026.3.
 
 > *Figure 1.1: 7-Zip Official Download Interface*
 
