@@ -42,7 +42,7 @@ Downloaded and verified essential installation files for extraction, virtualizat
 #### **B. Oracle VirtualBox**
 
 * **Resource:** [VirtualBox Official Downloads](https://virtualbox.org/wiki/Downloads)
-* **Purpose:** Type-2 Hypervisor managing virtual machines and private networks.
+* **Purpose:** Installed Virtual box 7.2 as the hypervisor.
 
 > *Figure 1.2: Oracle VirtualBox Platform Packages Download Page*
 
