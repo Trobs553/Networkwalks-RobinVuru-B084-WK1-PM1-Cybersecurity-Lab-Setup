@@ -1,6 +1,3 @@
-Here is a polished, professional Markdown document template tailored for GitHub, Notion, or report submissions. It includes dynamic layout structures, clear image placeholders with formatted sub-labels, and expressive visual markers (stickers/emojis).
-
----
 
 # 🔐 Networkwalks-RobinVuru-B084-WK1-PM1-Cybersecurity-Lab-Setup
 
