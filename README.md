@@ -5,7 +5,7 @@
 
 * **Author:** Robin Vuru
 * **Batch/ID:** B084 (WK1-PM1)
-* **Objective:** Establish a fully functional, virtualized cybersecurity lab environment on a Windows 11 host using Oracle VirtualBox and Kali Linux to perform ethical hacking, network analysis, and authorized security assessments.
+* **Objective:** This project covers installing and configuring VirtualBox, importing Kali Linux as a VM, creating a private NAT Network, configuring Kali's network connectivity with a consistent static IP, verifying internet and DNS, taking a clean VM snapshot for recovery, and documenting the entire setup to prepare the environment for future cybersecurity projects.
 
 ---
 
