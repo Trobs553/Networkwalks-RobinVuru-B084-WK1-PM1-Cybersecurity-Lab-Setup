@@ -149,7 +149,7 @@ Created a clean recovery snapshot prior to initiating active security assessment
 * **IP Collisions / Unexpected DHCP Leasing:** Cleaned stale DHCP leases and validated the scope range within VirtualBox Network Manager.
 * **Hardware Virtualization Blockers:** Enabled Intel Virtualization Technology (**VT-x**) within system BIOS/UEFI settings to address hypervisor kernel module errors.
   <p align="center">
-  <img src="Fig1.7.PNG" alt="NAT Network Configuration Interface" width="600" />
+  <img src="Fig1.8.png" alt="NAT Network Configuration Interface" width="600" />
   <br>
   <em>Figure 1.7: Configuration Interface</em>
 </p>
