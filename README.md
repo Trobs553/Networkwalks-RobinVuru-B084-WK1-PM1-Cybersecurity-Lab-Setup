@@ -88,7 +88,6 @@ Processor: 2
 </p>
 
 ```text
-
 Flow Diagram
                Personal Laptop (Windows 11)
                      Intel Core i7 | 8 GB RAM
