@@ -148,6 +148,7 @@ Created a clean recovery snapshot prior to initiating active security assessment
 1. **NAT Networking Isolation:** Understanding how shared virtual networks handle inter-VM communication alongside host outbound network translation.
 2. **Network Diagnostics:** Proficiency with command-line tools (`ip`, `ping`, `getent`, `cat`) to verify network layers systematically.
 3. **Snapshot Management:** Recognizing snapshots as critical safety mechanisms before conducting disruptive security tests.
+4. **Documentation:** Learned documenting commands, configuration, screenshots, problems, solutions is an important part of a professional cybersecurity project.
 
 ---
 
