@@ -4,7 +4,7 @@
 ## 📌 1. Project Overview & Details
 
 * **Author:** Robin Vuru
-* **Author:** https://www.linkedin.com/in/robin-vuru-306097292?utm_source=share_via&utm_content=profile&utm_medium=member_android
+* **LinkedIn:** https://www.linkedin.com/in/robin-vuru-306097292?utm_source=share_via&utm_content=profile&utm_medium=member_android
 * **Batch/ID:** B084 (WK1-PM1)
 * **Objective:** This project covers installing and configuring VirtualBox, importing Kali Linux as a VM, creating a private NAT Network, configuring Kali's network connectivity with a consistent static IP, verifying internet and DNS, taking a clean VM snapshot for recovery, and documenting the entire setup to prepare the environment for future cybersecurity projects.
 
