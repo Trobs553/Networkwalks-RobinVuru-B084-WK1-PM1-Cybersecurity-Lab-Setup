@@ -79,7 +79,7 @@ Processor: 2
   <br>
   <em>Figure 1.5: Configuration Interface</em>
 </p>
-3. Guest Interface Tuning: Verified `Wired connection 1` settings within Kali Linux to dynamically request an IP via DHCP and set DNS targeting `8.8.8.8`.
+3. Configure the Kali Linux Netork:
 
 <p align="center">
   <img src="Fig1.6.PNG" alt="NAT Network Configuration Interface" width="600" />
