@@ -134,7 +134,7 @@ Created a clean recovery snapshot prior to initiating active security assessment
 * **Snapshot Name:** `Fresh Kali Linux_Robin Vuru- Task 1 Baseline`
 * **Status:** Clean state saved and baseline verified.
   <p align="center">
-  <img src="Fig1.7.PNG" alt="NAT Network Configuration Interface" width="600" />
+  <img src="Fig1.7.png" alt="NAT Network Configuration Interface" width="600" />
   <br>
   <em>Figure 1.7: Configuration Interface</em>
 </p>
